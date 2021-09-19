@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'screens/auth/login.dart';
+
+import 'constants.dart';
+import 'screens/auth/login/login.dart';
 
 class App extends StatelessWidget {
   const App({ Key? key }) : super(key: key);
@@ -10,7 +12,8 @@ class App extends StatelessWidget {
       title: 'My Flutter App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: kPrimaryColor,
+        scaffoldBackgroundColor: Colors.white,
       ),
       home: const Login(),
     );
