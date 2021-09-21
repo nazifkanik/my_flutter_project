@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../signup/signup.dart';
+// import '../../signup/signup.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
@@ -20,6 +20,11 @@ class Body extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.03),
+            TextFormField(
+              decoration: const InputDecoration(
+                labelText: 'Email',
+              ),
+            )
           ],
         ),
       ),
