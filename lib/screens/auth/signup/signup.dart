@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
+import 'components/body.dart';
+
 class SignUp extends StatelessWidget {
   const SignUp({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return const Scaffold(
+      body: Body(),
     );
   }
 }
+

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'constants.dart';
+import 'utils/constants.dart';
 import 'screens/auth/login/login.dart';
 
 class App extends StatelessWidget {
